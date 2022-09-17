@@ -1,0 +1,19 @@
+String
+Integer
+FLoat
+List
+Dictionary
+Tuple
+Boolean
+Sets
+
+Strings - Group of text/characters.
+Integer - Number
+float - Number along with Decimal point
+List - [1,2,3]
+Dictionary - {key : value}
+Tuple: (1,2,3)
+Boolean - True or False
+Sets - {}
+
+Variable Assignment
