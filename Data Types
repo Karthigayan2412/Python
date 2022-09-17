@@ -16,7 +16,112 @@ Tuple: (1,2,3)
 Boolean - True or False
 Sets - {}
 
-** Variable Assignment **
+#Variablle Assignment
+
+1. Variable can start with loweer case characters
+2. variables cannot start with special characters
+3. variblae cannot named with data types.
+
+# Indexing & Slicing
+
+[start:stop:step}
+
+#String Properties
+
+String concatenation = '+', '*"
+
+#Print
+print(f "Hello ! {} to {}" Karthigayan, India)
+print("Welcome {name}" .format(name='Karthigayan'))
+
+#list
+l1 = [1,2,3,4]
+
+##Dictionaries
+
+k1 = {"Name" : "Karthigayan", 'Tamil' : 100}
+k1
+{'Name': 'Karthigayan', 'Tamil': 100}
+
+>>> k1.keys()
+dict_keys(['Name', 'Tamil'])
+
+ k1.values()
+dict_values(['Karthigayan', 100])
+
+k1.items()
+dict_items([('Name', 'Karthigayan'), ('Tamil', 100)])
+
+k1['Name']
+'Karthigayan'
+
+#tuple
+
+t = (1,2,4)
+
+#set
+set(num)
+{1, 2, 3}
+>>> num = [1,2,3,3,4,4,1,2,3]
+>>> set(num)
+{1, 2, 3, 4}
+
+# Boolean
+>>> 5 > 3
+True
+>>> 3 > 12
+False
+>>> 'kar' == "Kar"
+False
+
+#I/O Basic files
+>>> x = open("content.txt")
+>>> x.read()
+'Welcome to python programming'
+>>>
+
+>>> x.seek(0)
+0
+>>> x.read()
+'Welcome to python programming'
+
+>>> x = open("content.txt" ,mode="w")
+>>> x.write("Welcome to New world!")
+21
+
+
+>>> x = open("content.txt")
+>>> x.read()
+'Welcome to New world!'
+>>>
+
+>>> with open("content.txt", mode='w') as f:
+...     f.write("Learning Python in full mode")
+...
+28
+>>> with open("content.txt", mode='r') as f:
+...     print(f.read())
+...
+Learning Python in full mode
+
+with open("content.txt", mode='a') as f:
+...      f.write("Keep continue till the end")
+...
+26
+>>> with open("content.txt", mode='r') as f:
+...     print(f.read())
+...
+Learning Python in full modeKeep continue till the end
+
+Modes:
+r,w,a r+, w+
+
+
+
+
+
+
+
 
 
 
